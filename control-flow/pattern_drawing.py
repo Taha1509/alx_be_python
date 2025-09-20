@@ -4,7 +4,7 @@ number = int (input("Enter the size of the pattern:"))
 
 row = 0
 while row < number:
-    for x in range (1 , number + 1):
+    for x in range (number):
         print ("#", end="")
     print ()
     row += 1
